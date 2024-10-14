@@ -10,6 +10,7 @@
   outputs = {
     nixpkgs,
     ectoolSrc,
+    self,
   }: let
     system = "x86_64-linux";
 
